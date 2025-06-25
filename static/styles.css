@@ -1,0 +1,144 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fbfd;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    padding: 1rem 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left .logo {
+    height: 100px;
+    width: auto;
+}
+
+.nav-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-right a:hover {
+    color: #a9dbff;
+}
+
+
+main {
+    padding: 3rem 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Shared section styles */
+section {
+    background-color: #ffffff;
+    padding: 2rem 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+section ul {
+    padding-left: 1.25rem;
+    margin: 1rem 0;
+}
+
+section ul li {
+    margin-bottom: 0.5rem;
+    list-style: disc;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    background: linear-gradient(135deg, #eef4ff, #f6f9ff);
+    box-shadow: none;
+    padding: 3.5rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #003366;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #444;
+}
+
+/* Questions section */
+.questions ul {
+    columns: 2;
+    column-gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.questions ul li::before {
+    content: "❓";
+    margin-right: 0.5rem;
+    color: #0077cc;
+}
+
+.reassurance {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: #0077cc;
+}
+
+/* Mission */
+.mission p {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+}
+
+/* Guidance */
+.guidance ul li::before {
+    content: "✔️";
+    margin-right: 0.5rem;
+    color: #28a745;
+}
+
+.guidance .closing-line {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: #333;
+}
